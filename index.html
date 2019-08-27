@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Sunceit Barber</title>
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="col-12 ">
+
+            <div class="Sunceit_barber">
+
+                <h2>Sunceit Barber:</h2>
+
+                <br>
+                <div class="barber" >
+
+
+                </div>
+                
+                <input class="registerBtn" type="submit" value="Register" id="addBtn"><br><br>
+
+                <div  class="textName ">
+
+                <input type="text" value="" placeholder="Enter first Name" class="firstname" name="firstname">
+                <br><br>
+                <input type="text" value="" placeholder="Enter last Name" class="Lastname" name="Lastname">
+
+                <br><br>
+                </div>
+                <input class="AddBtn" type="submit" value="Add" id="addBtn">
+                <br><br>
+                <div>
+                    <label class="radio">
+
+                        <input type="radio" class="radioBtn" name="hairCut" onclick="priceList();" value="Hair Cut">Hair Cuting
+                        <span></span>
+                    </label>
+
+                    <label class="radio">
+
+                        <input type="radio" class="radioBtn" name="hairCut" onclick="priceList();"value="Shaving">Shaving
+                        <span></span>
+                    </label>
+
+                    <label class="radio">
+
+                        <input type="radio" class="radioBtn" name="hairCut" onclick="priceList();"value="Triming">Triming
+                        <span></span>
+                    </label>
+
+                    <label class="radio">
+
+                        <input type="radio" class="radioBtn" name="hairCut"onclick="priceList();" value="Styling"> Styling
+                        <span></span>
+                    </label>
+
+                </div>
+                <br><br>
+                <input class="showBtn " type="submit" value="Show" id="showBtn"><br><br>
+                <div class="row">
+                    <div  col-12>
+                        <ul class="BarberList" style="border-radius: 3px solid black; display:inline-block">
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+
+</body>
+<script src="barber.js" charset="utf-8"></script>
+<script src="barber-dom.js" charset="utf-8"></script>
+
+</html>
